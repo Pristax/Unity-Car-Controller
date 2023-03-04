@@ -7,12 +7,7 @@ public class InputManager : MonoBehaviour
     public float vertical;
     public float horizontal;
     public bool handbrake;
-
-    void Start()
-    {
-
-    }
-
+    
     void FixedUpdate()
     {
         vertical = Input.GetAxis("Vertical");
